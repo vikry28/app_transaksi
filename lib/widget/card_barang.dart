@@ -97,14 +97,11 @@ class Card_barang extends StatelessWidget {
                                 ),
                               ),
                               Spacer(),
-                              Padding(
-                                padding: EdgeInsets.only(right: 87.0),
-                                child: Text(
-                                  'Total',
-                                  style: TextStyle(
-                                    color: Colors.grey,
-                                    fontSize: 15,
-                                  ),
+                              Text(
+                                'Total',
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontSize: 15,
                                 ),
                               ),
                             ],
@@ -120,14 +117,11 @@ class Card_barang extends StatelessWidget {
                                 ),
                               ),
                               const Spacer(),
-                              Padding(
-                                padding: const EdgeInsets.only(right: 49.0),
-                                child: Text(
-                                  '${item!['total']}',
-                                  style: const TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 15,
-                                  ),
+                              Text(
+                                '${item!['total']}',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 15,
                                 ),
                               ),
                             ],
